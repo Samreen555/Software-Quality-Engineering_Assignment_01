@@ -9,7 +9,7 @@ namespace SearchLibrary.Tests
         public void Search_ElementFound()
         {
             var js = new JumpSearch();
-            int[] arr = { 1, 2, 3, 4, 5 };
+            int[] arr = { 1, 2, 3, 4, 5 }; //array to search in
             Assert.Equal(2, js.Search(3, arr)); // 3 is at index 2
         }
 

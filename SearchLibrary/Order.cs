@@ -8,7 +8,7 @@ namespace SearchLibrary
         public string CustomerName { get; set; }
         public double Amount { get; set; }
 
-        public Order(int orderId, string customerName, double amount)
+        public Order(int orderId, string customerName, double amount) 
         {
             OrderId = orderId;
             CustomerName = customerName;
