@@ -11,9 +11,9 @@ namespace SearchLibrary.Tests
         {
             var orders = new Order[]
             {
-                new Order(101, "Alice", 200.5),
-                new Order(102, "Bob", 150),
-                new Order(103, "Charlie", 300)
+                new Order(101, "Samreen", 200.5),
+                new Order(102, "Umama", 150),
+                new Order(103, "Khan", 300)
             };
 
             var bs = new BinarySearch();
@@ -27,9 +27,9 @@ namespace SearchLibrary.Tests
         {
             var orders = new Order[]
             {
-                new Order(101, "Alice", 200.5),
-                new Order(102, "Bob", 150),
-                new Order(103, "Charlie", 300)
+                new Order(101, "Samreen", 200.5),
+                new Order(102, "Umama", 150),
+                new Order(103, "Khan", 300)
             };
 
             var ls = new LinearSearch();
@@ -43,9 +43,9 @@ namespace SearchLibrary.Tests
         {
             var orders = new Order[]
             {
-                new Order(101, "Alice", 200.5),
-                new Order(102, "Bob", 150),
-                new Order(103, "Charlie", 300)
+                new Order(101, "Samreen", 200.5),
+                new Order(102, "Umama", 150),
+                new Order(103, "Khan", 300)
             };
 
             var js = new JumpSearch();
